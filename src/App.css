@@ -1,25 +1,24 @@
-.footer{
-  font-size: 30px;
-  color: white;
-  padding: 5px;
-  background: rgba(251, 252, 252, 0.666);
-  position:fixed;
-  bottom:0;
+header{
+  height: 100vh;
   width:100%;
-  height:60px;   /* Height of the footer */
-}
-.inlinefooter{
-  display:flex;
-  justify-content: space-between;
 }
 
-/* .app-index{
-  min-height: 60em;
-  background-color:rgb(255, 255, 255);
-} */
-.home-index{
+.second{
+  height:100vh;
+}
+
+.second h1{
+  float: right;
+  margin-top:15%;
+  margin-right: 20%;
+  font-size: 4em;
+}
+
+.second p{
+  clear: right;
+  margin: 10em;
+}
+
+.third{
   height: 100vh;
-  width: 100vw;
-  background-repeat:no-repeat;
-  background-color:rgb(254, 254, 254);
 }

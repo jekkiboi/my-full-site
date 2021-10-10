@@ -1,24 +1,24 @@
 import './App.css';
-import React from 'react'
-import Footer from './components/Footer';
-import Routes from './config/Routes'
+import React, {Component} from 'react'
+// import Component1 from './components/Component1';
 
 
-
-function App() {
-
-  return (
-    <div 
-    className='app-index' 
-    style={{
-      backgroundImage: `url('${process.env.PUBLIC_URL}/images/GrassS.png')`,
-    }}
-    >
-      <Routes/>
-      <Footer/>
-    </div>
-  );
+ export default function App() {
+    return (
+      <div className="App">
+        <header></header>
+       <div className="second">
+          <h1>Hi, I'm Jack.</h1>
+          <p>fgukdfhkjilfshdgrtdytttrvbdyuytreasdty
+            aerteyurttrewrtryturewwertyuytrewertytu
+            aertyutstyutyrewertyuiuytrewty76ewfghjk
+            yut5trefkiyur5tefhku654redfgi7654reuyy6t
+          </p>
+       </div>
+       <div className='third'></div>
+      </div>
+    )
 }
 
-export default App;
+ 
 
