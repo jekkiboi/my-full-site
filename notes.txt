@@ -1,1 +1,12 @@
 https://www.youtube.com/watch?v=JXvnTkrwStE
+
+
+I wish to use react-reveal Flip left and Right to reveal 
+logos and designs I have made
+
+website size params
+1024/768px
+
+concrete text youtube tutorial
+https://www.youtube.com/watch?v=hwRwUeVoFTo
+

@@ -1,0 +1,126 @@
+
+
+/* 1 */
+.title1{
+font-family: 'Megrim';
+font-size: 8em;
+margin-top: 8vh;
+padding: 5vh;
+color:rgb(69, 68, 68)
+}
+
+/* 2 */
+.inline-menu{
+    padding: 40px 0 60px;
+    display: block;
+}
+
+/* 3 */
+nav {
+    display: block;
+}
+
+
+
+.seeProjects ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+@media (max-width: 600px)
+.seeProjects ul{
+    flex-direction: column;
+}
+
+
+@media (max-width: 600px)
+.btn{
+    /* padding: 0.8em 0.3em !important; */
+    display: inline-block;
+}
+
+/* creates padding in between buttons  */
+.seeProjects ul li {
+    margin-right: 20px;
+}
+ /* moves butt0ns to underneath title  */
+*, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+/* buttons */
+ul{
+    list-style: none;
+}
+
+.seeProjects button.active {
+    background-color: #c37264;
+}
+.seeProjects button {
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+button {
+    background-color: #F3F6F4;
+    border: none;
+    text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 300;
+    letter-spacing: 0.15rem;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+button, html [type=button], [type=reset], [type=submit] {
+    -webkit-appearance: button;
+}
+button, select {
+    text-transform: none;
+}
+/* the whole ass pic div with info */
+.projectsContainer{
+
+}
+
+/* name next to image  */
+.project-name{
+    width: 9em;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    border-style: none;
+    padding: 2vw;
+    /* margin-left: -20vw; */
+}
+
+/* image */
+.img-fluid{
+    max-width: 50vw;
+    margin-left: -10vw;
+    display: block;
+    border-style: none;
+}
+
+.projectContainer li a {
+    columns: 2 auto;
+    display: inline-block;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+}

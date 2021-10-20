@@ -1,24 +1,23 @@
 import './App.css';
-import React, {Component} from 'react'
-// import Component1 from './components/Component1';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Routes from './config/Routes'
+import AOS from 'aos'
+import 'aos/dist/aos.css';
 
+function App() {
 
- export default function App() {
-    return (
-      <div className="App">
-        <header></header>
-       <div className="second">
-          <h1>Hi, I'm Jack.</h1>
-          <p>fgukdfhkjilfshdgrtdytttrvbdyuytreasdty
-            aerteyurttrewrtryturewwertyuytrewertytu
-            aertyutstyutyrewertyuiuytrewty76ewfghjk
-            yut5trefkiyur5tefhku654redfgi7654reuyy6t
-          </p>
-       </div>
-       <div className='third'></div>
-      </div>
-    )
+  return (
+    <div>
+      {/* <Header/> */}
+      <Header/>
+      <Routes/>
+      <Footer/>
+      {/* <Footer/> */}
+    </div>
+  );
 }
 
+export default App;
  
 

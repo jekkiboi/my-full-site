@@ -1,24 +1,263 @@
-header{
-  height: 100vh;
-  width:100%;
+@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
+
+/* Homepage Styling */
+.home-index{
+  min-height: 100vh;
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.app-index{
+  min-height: 100vh;
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.format{
+  /* display:flex; */
+  position: absolute;
+  text-align:right;
+  align-items: right;
+  margin: 0 auto;
+  margin-left: 28vw;
+}
+.links{
+  display: inline;
+  text-align:right;
+}
+.inlineLinks{
+  margin-top: -7%;
+  margin-right: 5%;
+  /* display: inline; */
+}
+.inlineText{
+  display:inline;
+  margin-top: 30vh;
+  margin-right: 5%;
+  /* display: inline; */
 }
 
-.second{
-  height:100vh;
+.jack{
+margin-top: 25vh;
+font-family: 'Megrim';
+font-size: 18vw;
+color:rgba(104, 76, 76, 0.914)
+}
+.thumbnail{
+  height: 5vw;
+  width: 5vw;
+}
+.thumbnail:hover{
+  transition:1s;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.letter{
+  height: 5vw;
+  width: 3.8vw;
+}
+.letter:hover{
+  box-shadow: black;
+  transition:1s;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.r-backgroundColor-14sbq61{
+
 }
 
-.second h1{
+/* Header Syling */
+.public-header{
+  display:inline-flex;
+  color: rgb(49, 85, 28);
+  text-decoration:none;
+  font-weight:400;
+  align-items:right;
+}
+.header {
+  justify-content:space-between;
+  display: inline;
+  position:fixed;
+  width: 100%;
+   font-family: 'Megrim';
+   font-size: 30px;
+   color: white;
+   padding: 5px;
+   background: #f7f9f7aa;
+ }
+.inlineheader{
   float: right;
-  margin-top:15%;
-  margin-right: 20%;
-  font-size: 4em;
+  justify-content: space-between;
+}
+.headerlinks{
+  margin-right: 0%;
+  float: right;
+  display: inline-flex;
+  justify-items: space-between;
 }
 
-.second p{
-  clear: right;
-  margin: 10em;
+/* Header  button */
+.button{
+  font-family: "Megrim";
+	display: inline-block;
+	position: absolute;
+	overflow: hidden;
+	left: 40%;
+	top: 40%;
+  /* width: 200px;/ */
+	perspective:400px;
+	background-color: transparent;
+  
+  -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(50%, transparent), to(rgba(255,255,255,0.3))); 
 }
 
-.third{
-  height: 100vh;
+
+.button span{
+	display: block;
+	position: relative;
+	transition:0.3s ease-in-out all;
+	transform-origin:50% 0;
+  transform-style:preserve-3d;
+	background-color: rgb(255, 251, 251);
+	color: rgb(157, 155, 155);
+  width: 100%;
+
+}
+.button span:after{
+	display: block;
+	content: attr(data-title);
+	position: absolute;
+	left: 0;
+	top: 0;
+	transition:0.3s ease-in-out all;
+	transform-origin:50% 0;
+	transform:translate3d(0px,105%,0px) rotateX(-90deg);
+	background-color: white;
+	color: black;
+  width: 100%;
+}
+
+.button:hover span{
+	transform:translate3d(0px,0px,-30px) rotateX(90deg);
+}
+.respect{
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  /* font-face: sans-serif;*/
+  font-size: 0.5em;
+  color:rgb(255, 254, 254);
+}
+a{
+  color:rgb(128, 126, 126);
+  text-decoration: none;
+}
+
+/* footer  */
+.footer{
+   font-family: 'Megrim';
+   font-weight: 800;
+   font-size: 1.8vw;
+    color: rgb(201, 134, 134);
+    padding: 5px;
+    background: rgb(216, 216, 216);
+    position:fixed;
+    bottom:0;
+    width:100%;
+    height:60px;   /* Height of the footer */
+  }
+  .inlinefooter{
+    display:flex;
+    justify-content: space-between;
+  }
+  .footerlinks{
+    font-family: 'Megrim';
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    bottom:0;
+  }
+  .footerlinklist{
+    list-style-type: none;
+    display: flex;
+    align-self:flex-end;
+    bottom:0;
+  }
+  .copyright{
+    font-family: 'Megrim';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom:0;
+  margin-top: -1vh;
+  }
+
+
+  /* wayfarer page */
+.wayfarertitle{
+font-size: 6rem;
+padding: 10px 0 30px;
+line-height: 1.2;
+}
+.wayfarerbody{
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  font-weight: 300;
+  color: #2C2C2C;
+}
+.inlinewayfarer{
+  display:flex;
+  justify-content: space-between;
+}
+@media (max-width: 1024px)  {
+  .inlinewayfarer {
+      display: block;
+  }
+}
+.wayfarerlaptop{
+  max-width: 50%;
+  max-height: 30%;
+}
+.wayfarerlayout{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  max-height: 40%;
+  align-items: center;
+}
+
+@media (max-width: 940px)
+.projectPage header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.projectPage{
+  padding:2vw;
+}
+
+a.link{
+  color:rgb(109, 108, 108);
+  font-style: italic;
+}
+
+.tools{
+  font-size: 1.5em;
+  color:rgb(109, 108, 108);
+  font-style: italic;
+}
+
+
+/* claude 9 page  */
+.lank{
+  width: 3vw;
 }
