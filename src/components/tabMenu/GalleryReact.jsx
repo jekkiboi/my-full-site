@@ -1,8 +1,8 @@
 import React, {useState} from 'react'
-import Menu from "./menu"
+import Menu from "./Menu"
 import "../tabMenu/tab.css"
-import 'aos/dist/aos.css';
 import {Fade} from 'react-reveal'
+
 const GalleryReact = () => {
     const [items, setItems] = useState(Menu)
 
