@@ -319,3 +319,16 @@ a.yo:hover{
   text-decoration:underline;
   transition: 1s;
 }
+
+
+/* work  */
+.loveit{
+  width: 40%;
+}
+
+.whatever{
+  padding:3em;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
