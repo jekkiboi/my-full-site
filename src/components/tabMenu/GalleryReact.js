@@ -52,7 +52,7 @@ const GalleryReact = () => {
                                 items.map((elem) => {
                                     const { id, name, image, link } = elem 
                                     return (     
-                                        <ul className="projectsContainer aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
+                                        <ul className="projectsContainer">
                                                 <Fade up>
                                                 <li className="image">
                                                     <span>
@@ -62,9 +62,7 @@ const GalleryReact = () => {
                                                     </span>
                                                 </li>
                                                 </Fade>
-                                            {/* </div> */}
                                         </ul>
-                                    
                                     )
                                 })
                             }
@@ -73,7 +71,7 @@ const GalleryReact = () => {
                 </div>
             </div>
         </>
-        </body>
+    </body>
     )
 }
 
