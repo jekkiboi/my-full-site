@@ -1,6 +1,6 @@
-import { Alert, Button, Linking, View } from 'react-native';
+import { Alert, Linking } from 'react-native';
 import { Link, } from 'react-router-dom'
-import {Fade, Zoom} from 'react-reveal'
+import {Fade} from 'react-reveal'
 
 
 function Home() {

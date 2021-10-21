@@ -1,5 +1,5 @@
 import React from "react";
-import {Fade, Zoom} from 'react-reveal'
+import {Fade} from 'react-reveal'
 
 
 function Wayfarer(){
@@ -12,6 +12,7 @@ function Wayfarer(){
           <br />
             <header className='inlinewayfarer'>
                 <div>
+                <Fade left>
                     <h2 className="tools">React / Express/  Mongo DB</h2>
                     <br />
                     <h1 className='wayfarertitle'>Wayfarer</h1>
@@ -27,12 +28,16 @@ function Wayfarer(){
                         &nbsp; 
                         <a class="link" target="_blank" href="https://wayfarer333.netlify.app/">View Live</a>
                     </div>
+                    </Fade>
                 </div>
+                <Fade right>
                 <img className='wayfarerlaptop' src={process.env.PUBLIC_URL + '/images/wayfarerlaptop.png'} alt=""/>
+                </Fade>
             </header>
 
-
+            <Fade bottom>
             <img className='wayfarerlayout' src={process.env.PUBLIC_URL + '/images/layoutwayfarer.png'} alt=""/>
+            </Fade>
             <br />
             <br />
             <br />
