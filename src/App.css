@@ -307,7 +307,7 @@ a.link{
   display:flex;
   /* justify-content: space-between; */
 }
-a.yo{
+/* a.yo{
   font-family: "Open Sans", sans-serif;
   font-size: 1.4rem;
   font-weight: 500;
@@ -318,7 +318,7 @@ a.yo:hover{
   color: #6a4b4b;
   text-decoration:underline;
   transition: 1s;
-}
+} */
 
 
 /* work  */
