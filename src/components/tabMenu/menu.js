@@ -1,8 +1,8 @@
-import iconwayfarer from '../../../public/images/iconwayfarer.png'
-import C9icon from '../../../public/images/C9icon.png'
-import Lizzieicon from '../../../public/images/Lizzieicon.png'
-import diamond from '../../../public/images/diamond.png'
-import oftheearth from '../../../public/images/oftheearth.png'
+import iconwayfarer from '/images/iconwayfarer.png'
+import C9icon from '/images/C9icon.png'
+import Lizzieicon from '/images/Lizzieicon.png'
+import diamond from '/images/diamond.png'
+import oftheearth from '/images/oftheearth.png'
 
 const Menu = [
 {
