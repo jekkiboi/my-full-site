@@ -1,11 +1,30 @@
 import React from "react";
-import GalleryReact from "../components/tabMenu/GalleryReact";
+import { Link } from 'react-router-dom'
+// import GalleryReact from "../components/tabMenu/GalleryReact";
 
 function Work(){
     return(
     <>
-    
-    <GalleryReact />
+    <Link to='/wayfarer'>
+    <img className='loveit'src={`${process.env.PUBLIC_URL}/images/iconwayfarer.png`} alt=""/>
+    </Link>
+    &nbsp; &nbsp;
+    <Link to='/claude9'>
+    <img className='loveit'src={`${process.env.PUBLIC_URL}/images/C9icon.png`} alt=""/>
+    </Link>
+    &nbsp; &nbsp;
+    <Link to='/lizzie'>
+    <img className='loveit'src={`${process.env.PUBLIC_URL}/images/Lizzieicon.png`} alt=""/>
+    </Link>
+    &nbsp; &nbsp;
+    <Link to='/engayged'>
+    <img className='loveit'src={`${process.env.PUBLIC_URL}/images/diamond.png`} alt=""/>
+    </Link>
+    &nbsp; &nbsp;
+    <Link to='/oftheearth'>
+    <img className='loveit'src={`${process.env.PUBLIC_URL}/images/oftheearth.png`} alt=""/>
+    </Link>
+    {/* <GalleryReact /> */}
   
     </>
     )

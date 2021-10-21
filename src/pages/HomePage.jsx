@@ -1,5 +1,5 @@
 import { Alert, Linking } from 'react-native';
-import { Link, } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import {Fade} from 'react-reveal'
 
 
@@ -43,15 +43,15 @@ function Home() {
                         </Link> */}
                         &nbsp; &nbsp; 
                         <Link to='/Work'>
-                        <img className='thumbnail'src={`${process.env.PUBLIC_URL}/images/enter.png`}/>
+                        <img className='thumbnail'src={`${process.env.PUBLIC_URL}/images/enter.png`} alt=""/>
                         </Link>
                         &nbsp; &nbsp; 
                         <a href="https://github.com/jekkiboi" target='_blank'> 
-                        <img className='thumbnail'src={`${process.env.PUBLIC_URL}/images/github.png`}/>
+                        <img className='thumbnail'src={`${process.env.PUBLIC_URL}/images/github.png`} alt=""/>
                         </a>
                         &nbsp; &nbsp; 
                         <a href="https://www.linkedin.com/in/jack-mayer-se/" target='_blank'> 
-                            <img className='thumbnail'src={`${process.env.PUBLIC_URL}/images/linkedin.png`}/>
+                            <img className='thumbnail'src={`${process.env.PUBLIC_URL}/images/linkedin.png`} alt=""/>
                         </a>
                         &nbsp; &nbsp; 
                     </span>
