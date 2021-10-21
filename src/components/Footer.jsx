@@ -13,13 +13,14 @@ function Footer(){
                       &nbsp;&nbsp;
                       <Link to="/work" className='public-footer'>work</Link>
                       &nbsp;&nbsp;
-                      <Link to="/design" className='public-footer'>Design</Link>
-                      &nbsp;&nbsp;
                       <Link to="/about" className='public-footer'>About</Link>
+                      &nbsp;&nbsp;
+                      <Link to="/contact" className='public-footer'>Contact</Link>
                     {/* <div className='footerlinklist'> <SocialSharer /> </div> */}
                 </span>
             </span>
             <div className='copyright'> © 2021 JACK MAYER </div>
+            <br />
         </div>
     )
 }

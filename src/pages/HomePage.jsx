@@ -43,7 +43,7 @@ function Home() {
                         </Link> */}
                         &nbsp; &nbsp; 
                         <Link to='/Work'>
-                        <img className='thumbnail'src={`${process.env.PUBLIC_URL}/images/C.png`}/>
+                        <img className='thumbnail'src={`${process.env.PUBLIC_URL}/images/enter.png`}/>
                         </Link>
                         &nbsp; &nbsp; 
                         <a href="https://github.com/jekkiboi" target='_blank'> 

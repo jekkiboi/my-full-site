@@ -15,10 +15,10 @@ function Hello() {
 
     return (
                     <View>
-                        <Button title="E" img={`${process.env.PUBLIC_URL}/images/email.png`} 
+                        <Button className='email' title="Email" img={`${process.env.PUBLIC_URL}/images/email.png`} 
                         onPress={() => Linking.openURL('mailto:jackiemayer14@gmail.com') }
-                             className='thumbnail' />
-                        </View> 
+                              />
+                    </View> 
     )
 
 }

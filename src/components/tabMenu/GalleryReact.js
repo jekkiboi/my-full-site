@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import Menu from "./menu"
 import "../tabMenu/tab.css"
 import 'aos/dist/aos.css';
-import {Fade, Zoom} from 'react-reveal'
+import {Fade} from 'react-reveal'
 const GalleryReact = () => {
     const [items, setItems] = useState(Menu)
 
@@ -17,7 +17,9 @@ const GalleryReact = () => {
         <body className="projectsPage">
             <>
             <div className="inline-menu">
+                <Fade left>
             <h1 className='title1'>Work</h1>
+                <Fade left>
                 <nav className="seeProjects">
                     <ul>
                         &nbsp; 
@@ -34,8 +36,13 @@ const GalleryReact = () => {
                         </li>
                     </ul>
                 </nav>
+                </Fade>
+                </Fade>
             </div>
+
             <hr/>
+            <br />
+
             {/* my main items section */}
             <div className="menu-items">
                 <div className="row">
@@ -46,7 +53,7 @@ const GalleryReact = () => {
                                     const { id, name, image, link } = elem 
                                     return (     
                                         <ul className="projectsContainer aos-init aos-animate" data-aos="fade-up" data-aos-duration="800">
-                                                <Fade right>
+                                                <Fade up>
                                                 <li className="image">
                                                     <span>
                                                     <a href={link}>

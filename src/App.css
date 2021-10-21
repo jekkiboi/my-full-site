@@ -26,6 +26,8 @@
 .links{
   display: inline;
   text-align:right;
+  color:rgb(109, 108, 108);
+  font-style: italic;
 }
 .inlineLinks{
   margin-top: -7%;
@@ -46,8 +48,8 @@ font-size: 18vw;
 color:rgba(104, 76, 76, 0.914)
 }
 .thumbnail{
-  height: 5vw;
-  width: 5vw;
+  height: 4em;
+  width: 4em;
 }
 .thumbnail:hover{
   transition:1s;
@@ -259,5 +261,61 @@ a.link{
 
 /* claude 9 page  */
 .lank{
-  width: 3vw;
+  width: 3em;
+  height: 3em;
+}
+
+/* lizzie */
+.lizzielaptop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+    max-width: 120%;
+    max-height: 30%;
+    align-items: center;
+}
+
+/* about */
+.about{
+  padding: 5vw;
+}
+
+/* contact  */
+.email{
+}
+
+.css-text-901oao{
+  background:rgb(138, 115, 115);
+}
+.r-backgroundColor-14sbq61 {
+  background-color: rgb(255, 255, 255);
+}
+
+.r-textTransform-tsynxw {
+  text-transform: none;
+  width: 4em;
+}
+.css-text-901oao {
+  box-sizing: border-box;
+  display: inline;
+  font: 2em -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+}
+.inlinecontact{
+  display:flex;
+  /* justify-content: space-between; */
+}
+a.yo{
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #2e1d1d;
+}
+a.yo:hover{
+  color: #6a4b4b;
+  text-decoration:underline;
+  transition: 1s;
 }

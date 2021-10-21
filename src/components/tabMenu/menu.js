@@ -24,17 +24,20 @@ const Menu = [
 },
 {
     id: 4,
+    image: "images/diamond.png",
+    name: "EnGayged",
+    link: "/engayged",
+    category: "Web",
+},
+{
+    id: 5,
     image: "images/oftheearth.png",
     name: "Of the Earth",
     link: "/oftheearth",
     category: "Graphic",
 },
 
-{
-    id: 5,
-    image: "",
-    category: "Web",
-},
+
 
 ]
 export default Menu

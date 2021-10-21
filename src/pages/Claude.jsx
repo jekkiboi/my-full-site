@@ -1,3 +1,5 @@
+import {Fade} from 'react-reveal'
+
 function Claude(){
     return(
         <body className="projectPage">
@@ -8,6 +10,7 @@ function Claude(){
           <br />
             <header className='inlinewayfarer'>
                 <div>
+                    <Fade left>
                     <h2 className="tools">Adobe Creative Cloud / Branding / Content Creation </h2>
                     <br />
                     <h1 className='wayfarertitle'>Claude 9</h1>
@@ -26,14 +29,21 @@ function Claude(){
                             <img className='lank'src={`${process.env.PUBLIC_URL}/images/instagram.png`}/>
                         </a>
                     </div>
+                    </Fade>
                 </div>
+                <Fade right>
                 <img className='wayfarerlaptop' src={process.env.PUBLIC_URL + '/images/c9squareorange.png'} alt=""/>
+                </Fade>
             </header>
 
-
-            <img className='wayfarerlayout' src={process.env.PUBLIC_URL + '/images/sky.png'} alt=""/>
             <br />
+            <Fade bottom>
+            <img className='wayfarerlayout' src={process.env.PUBLIC_URL + '/images/sky.png'} alt=""/>
+            </Fade>
+            <br />
+            <Fade bottom>
             <img className='wayfarerlayout' src={process.env.PUBLIC_URL + '/images/claudebanner.png'} alt=""/>
+            </Fade>
             <br />
             <br />
             <br />
