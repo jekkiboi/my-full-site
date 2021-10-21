@@ -27,7 +27,7 @@ function Header() {
                              {/* <NavDropdown.Divider /> */}
                       
                     </NavDropdown>
-                    <Link to="/" className='public-header'>Home</Link>
+                    <Link to="/my-full-site" className='public-header'>Home</Link>
                       &nbsp;&nbsp;
                       <Link to="/work" className='public-header'>Work</Link>
                       &nbsp;&nbsp;

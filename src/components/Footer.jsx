@@ -8,7 +8,7 @@ function Footer(){
            <span className='inlinefooter'> 
                 <span className='footerlinks'>
                 &nbsp;&nbsp;&nbsp;&nbsp;
-                <Link to="/" className='public-footer'>Home</Link>
+                <Link to="/my-full-site" className='public-footer'>Home</Link>
                       &nbsp;&nbsp;
                       <Link to="/work" className='public-footer'>work</Link>
                       &nbsp;&nbsp;
