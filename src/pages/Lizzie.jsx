@@ -26,7 +26,7 @@ function Lizzie(){
                     </Fade>
                 </div>
                 <Fade right>
-                <img className='wayfarerlaptop' src={process.env.PUBLIC_URL + '/images/lizziephone.png'} alt=""/>
+                <img className='lizziephone' src={process.env.PUBLIC_URL + '/images/lizziephone.png'} alt=""/>
                 </Fade>
             </header>
 
