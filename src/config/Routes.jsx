@@ -15,7 +15,7 @@ function Routes(props){
   
     return(
      <Switch>
-        <Route exact path='/' component={HomePage}/>
+        <Route exact path='/my-full-site' component={HomePage}/>
         <Route exact path='/about' component={About} />
         <Route exact path='/contact' component={Contact} />
         <Route exact path='/work' component={Work} />
