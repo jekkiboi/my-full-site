@@ -32,7 +32,7 @@ function Claude(){
                     </Fade>
                 </div>
                 <Fade right>
-                <img className='wayfarerlaptop' src={process.env.PUBLIC_URL + '/images/c9squareorange.png'} alt=""/>
+                <img className='lizziephone' src={process.env.PUBLIC_URL + '/images/c9squareorange.png'} alt=""/>
                 </Fade>
             </header>
 
