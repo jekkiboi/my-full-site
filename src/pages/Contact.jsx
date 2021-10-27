@@ -19,7 +19,8 @@ function Contact(){
                     </Fade>
                     <Fade right>
                     <p className='wayfarerbody'>
-                        Feel Free to reach out if you're interested in collaborating, hiring me, or even just questions about my projects. You can also reach me at <a className="yo" href="https://gmail.com" target='_blank'>Jackiemayer14@gmail.com</a>. Thanks for visiting!  
+                        Feel Free to reach out if you're interested in collaborating, 
+                        hiring, or even just questions about my projects. You can also reach me at <a className="yo" href="https://gmail.com" target='_blank'>Jackiemayer14@gmail.com</a>. Thanks for visiting!  
                     </p>
                     <br />
                     </Fade>

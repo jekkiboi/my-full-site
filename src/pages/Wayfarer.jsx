@@ -14,12 +14,12 @@ function Wayfarer(){
                 <div>
                 <Fade left>
                     <h2 className="tools">React / Express/  Mongo DB</h2>
-                    <br />
+         
                     <h1 className='wayfarertitle'>Wayfarer</h1>
                     <br />
                     <p className='wayfarerbody'>
-                        Me and four other General Assembly students teamed up to create an app that helps you share you love of travel with others. 
-                        With Wayfarer, you can catalog where you've explored, share images as well as keep everything private by using hard-coded authentication. 
+                        Me and four other GA grads teamed up to create an app that helps you share your love of travel with others. 
+                        We created schema to catalog where you've explored, share images as well as keep everything private by using hard-coded authentication. 
                     </p>
                     <br />
                     <div class='links'>

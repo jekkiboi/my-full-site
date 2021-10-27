@@ -6,17 +6,16 @@ function Claude(){
           <br />
           <br />
           <br />
-          <br />
-          <br />
             <header className='inlinewayfarer'>
                 <div>
                     <Fade left>
                     <h2 className="tools">Adobe Creative Cloud / Branding / Content Creation </h2>
-                    <br />
                     <h1 className='wayfarertitle'>Claude 9</h1>
-                    <br />
                     <p className='wayfarerbody'>
-                        Claude 9 is an up and coming hair salon located in the greater Houston area. I had the opportunity to create graphics for the company as well as content creation and social media consulting. I explored new ways of incorporating realism and gradiation/layering techniques utilizing Google font's uniquely whimsical Pacifico family.  
+                        Claude 9 is a hair salon Claude Kim recently opened located in the 
+                        greater Houston area. I had the opportunity to create graphics for the 
+                        company as well as content creation and social media consulting. 
+                        For the salons logo I explored new ways of incorporating realism and gradiation/layering techniques utilizing Google font's uniquely whimsical Pacifico family.  
                     </p>
                     <br />
                     <div class='links'>
@@ -32,13 +31,13 @@ function Claude(){
                     </Fade>
                 </div>
                 <Fade right>
-                <img className='lizziephone' src={process.env.PUBLIC_URL + '/images/c9squareorange.png'} alt=""/>
+                <img className='claude9orange' src={process.env.PUBLIC_URL + '/images/c9squareorange.png'} alt=""/>
                 </Fade>
             </header>
 
             <br />
             <Fade bottom>
-            <img className='wayfarerlayout' src={process.env.PUBLIC_URL + '/images/sky.png'} alt=""/>
+            <img className='wayfarerlayout' src={process.env.PUBLIC_URL + '/images/plane.png'} alt=""/>
             </Fade>
             <br />
             <Fade bottom>

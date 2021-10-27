@@ -7,12 +7,10 @@ import 'aos/dist/aos.css';
 function App() {
 
   return (
-    <div>
-      {/* <Header/> */}
+    <div className='app-index'>
       <Header/>
       <Routes/>
       <Footer/>
-      {/* <Footer/> */}
     </div>
   );
 }

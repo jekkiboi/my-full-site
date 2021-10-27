@@ -2,54 +2,51 @@
 
 /* Homepage Styling */
 .home-index{
-  min-height: 100vh;
+  min-height: 80vh;
   background-size: cover;
   background-position: bottom;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
 }
 .app-index{
-  min-height: 100vh;
   background-size: cover;
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  min-height: 80em;
 }
-.format{
-  /* display:flex; */
-  position: absolute;
-  text-align:right;
-  align-items: right;
-  margin: 0 auto;
-  margin-left: 28vw;
-}
-.links{
-  display: inline;
-  text-align:right;
-  color:rgb(109, 108, 108);
-  font-style: italic;
-}
+
+
 .inlineLinks{
-  margin-top: -7%;
-  margin-right: 5%;
-  /* display: inline; */
-}
-.inlineText{
-  display:inline;
-  margin-top: 30vh;
-  margin-right: 5%;
-  /* display: inline; */
+  display: inline-flex;
+  /* align-items: right; */
+  /* align-content: right; */
+  float: right;
+  margin-right: 15%;
+  margin-left: 15%;
 }
 
 .jack{
-margin-top: 25vh;
+display: flex;
+float:right;
+margin: 0 auto;
+margin-top: 10%;
+margin-right: 5%;
 font-family: 'Megrim';
-font-size: 18vw;
+font-size: 25vw;
 color:rgba(104, 76, 76, 0.914)
+}
+
+.thumb{
+  height: 4.4em;
+  width: 9em;
+  margin-right: 5%;
+}
+.thumb:hover{
+  transition:1s;
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
 }
 .thumbnail{
   height: 4em;
   width: 4em;
+  margin-bottom: 1%;
 }
 .thumbnail:hover{
   transition:1s;
@@ -74,31 +71,28 @@ color:rgba(104, 76, 76, 0.914)
 
 /* Header Syling */
 .public-header{
-  display:inline-flex;
   color: rgb(49, 85, 28);
   text-decoration:none;
   font-weight:400;
-  align-items:right;
+}
+.inlineheader{
+  display: flex;
+  float: right;
+  margin-right: 10%;
+  justify-content:space-between;
 }
 .header {
-  justify-content:space-between;
-  display: inline;
   position:fixed;
+  font-family: 'Megrim';
   width: 100%;
-   font-family: 'Megrim';
-   font-size: 30px;
+   font-size: 2rem;
    color: white;
    padding: 5px;
    background: #f7f9f7aa;
  }
-.inlineheader{
-  float: right;
-  justify-content: space-between;
-}
 .headerlinks{
   margin-right: 0%;
-  float: right;
-  display: inline-flex;
+  display: flex;
   justify-items: space-between;
 }
 
@@ -113,10 +107,8 @@ color:rgba(104, 76, 76, 0.914)
   /* width: 200px;/ */
 	perspective:400px;
 	background-color: transparent;
-  
   -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(50%, transparent), to(rgba(255,255,255,0.3))); 
 }
-
 
 .button span{
 	display: block;
@@ -163,7 +155,7 @@ a{
 .footer{
    font-family: 'Megrim';
    font-weight: 800;
-   font-size: 1.8vw;
+   font-size: 1.5em;
     color: rgb(201, 134, 134);
     padding: 5px;
     background: rgb(216, 216, 216);
@@ -200,7 +192,7 @@ a{
 
   /* wayfarer page */
 .wayfarertitle{
-font-size: 6rem;
+font-size: 5rem;
 padding: 10px 0 30px;
 line-height: 1.2;
 }
@@ -221,13 +213,15 @@ line-height: 1.2;
   }
 }
 .wayfarerlaptop{
-  max-width: 50%;
-  max-height: 30%;
+  max-width: 25em;
+  max-height: 25em;
+}
+.yo{
+  max-width: 25em;
+  max-height: 25em;
 }
 .wayfarerlayout{
   display: flex;
-  justify-content: center;
-  align-items: center;
   max-width: 100%;
   max-height: 40%;
   align-items: center;
@@ -265,6 +259,12 @@ a.link{
   height: 3em;
 }
 
+.claude9orange{
+  margin-top: 2vh;
+  width: 25em;
+  height:25em;
+}
+
 /* lizzie */
 .lizzielaptop{
     display: flex;
@@ -280,18 +280,21 @@ a.link{
 .about{
   padding: 5vw;
 }
+.abouttitle{
+  font-size: 6rem;
+  padding-left: 10px;
+  line-height: 1.2;
+  }
 
 /* contact  */
 .email{
 }
-
 .css-text-901oao{
   background:rgb(138, 115, 115);
 }
 .r-backgroundColor-14sbq61 {
   background-color: rgb(255, 255, 255);
 }
-
 .r-textTransform-tsynxw {
   text-transform: none;
   width: 4em;
@@ -305,35 +308,31 @@ a.link{
 }
 .inlinecontact{
   display:flex;
-  /* justify-content: space-between; */
 }
-/* a.yo{
-  font-family: "Open Sans", sans-serif;
-  font-size: 1.4rem;
-  font-weight: 500;
-  line-height: 1.5;
-  color: #2e1d1d;
-}
-a.yo:hover{
-  color: #6a4b4b;
-  text-decoration:underline;
-  transition: 1s;
-} */
 
 
 /* work  */
+.worktools{
+  font-size: 1.5em;
+  color:rgb(109, 108, 108);
+  font-style: italic;
+  margin-left: 4vh;
+}
 .loveit{
   width: 40%;
 }
-
+.worktitle{
+  font-size: 6rem;
+  padding-left: 30px;
+  line-height: 1.2;
+}
 .whatever{
-  padding:3em;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
+  padding:1em;
+  margin-left: 10vw;
+
+}
+.lizziephone{
+  width: 30em;
+  height:30em;
 }
 
-.lizziephone{
-  width: 50%;
-  height:50%;
-}
