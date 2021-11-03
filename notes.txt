@@ -10,3 +10,6 @@ website size params
 concrete text youtube tutorial
 https://www.youtube.com/watch?v=hwRwUeVoFTo
 
+favicon converter make in 64 then convert to 16 when exporting to web on PS
+https://www.icoconverter.com/
+
