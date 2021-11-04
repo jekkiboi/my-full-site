@@ -14,14 +14,14 @@ function Home() {
             backgroundPosition: "bottom",
             backgroundSize: "fill"
         }}>
-            <Header />
+
             <br />
             <span className='inlineText'>
                 <h1 className='jack'>Jack Mayer</h1>
             </span>
             <h4 className="tagline">Designer/Frontend Engineer</h4>
             <Link to='/lizzie'>
-                    <img className=''src={`${process.env.PUBLIC_URL}/images/LizzieGraphics.png`} alt="Enter"/>
+                    <img className='graphic'src={`${process.env.PUBLIC_URL}/images/LizzieGraphics.png`} alt="Enter"/>
             </Link>
             <br />
             <br />
@@ -30,7 +30,7 @@ function Home() {
             <br />
             <br />
             <Link to='/claude9'>
-                    <img className=''src={`${process.env.PUBLIC_URL}/images/C9Graphics.png`} alt="Enter"/>
+                    <img className='graphic'src={`${process.env.PUBLIC_URL}/images/C9Graphics.png`} alt="Enter"/>
             </Link>
     
             
