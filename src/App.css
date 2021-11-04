@@ -16,20 +16,31 @@
   display: inline-flex;
   /* align-items: right; */
   /* align-content: right; */
-  float: right;
+
   margin-right: 15%;
-  margin-left: 15%;
+
+  margin-left: 5%;
 }
 
 .jack{
 display: flex;
-float:right;
 margin: 0 auto;
-margin-top: 10%;
-margin-right: 5%;
+margin-top: 5%;
+margin-left: 5%;
 font-family: 'Megrim';
-font-size: 25vw;
+font-size: 12em;
 color:rgba(104, 76, 76, 0.914)
+}
+
+.tagline{
+  font-family: 'Megrim';
+  font-size: 2em;
+  margin-top: -1%;
+margin-left: 6%;
+}
+
+.engayged{
+  margin-left: 5%
 }
 
 .thumb{
@@ -44,8 +55,8 @@ color:rgba(104, 76, 76, 0.914)
   transform: scale(1.2);
 }
 .thumbnail{
-  height: 4em;
-  width: 4em;
+  height: 1em;
+  width: 1em;
   margin-bottom: 1%;
 }
 .thumbnail:hover{

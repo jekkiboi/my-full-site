@@ -30,9 +30,9 @@ function Claude(){
                     </div>
                     </Fade>
                 </div>
-                <Fade right>
+                {/* <Fade right>
                 <img className='claude9orange' src={process.env.PUBLIC_URL + '/images/c9squareorange.png'} alt=""/>
-                </Fade>
+                </Fade> */}
             </header>
 
             <br />
