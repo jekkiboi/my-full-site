@@ -8,35 +8,54 @@ function Home() {
 
     return (
         <div>
-        <Fade>
-        <div className='home-index' style={{
-            background: "white",
-            backgroundPosition: "bottom",
-            backgroundSize: "fill"
-        }}>
-
             <br />
+            <br />
+            <br />
+            <br /> 
+            <br />
+            <br />
+        <Fade>
+        <div className='home-index' style={{ }}>
+            <Fade left>
             <span className='inlineText'>
                 <h1 className='jack'>Jack Mayer</h1>
             </span>
             <h4 className="tagline">Designer/Frontend Engineer</h4>
+            </Fade>
+            <br />
+            <br /> 
+            <br />
+            <br />
+            <Fade bottom>
             <Link to='/lizzie'>
                     <img className='graphic'src={`${process.env.PUBLIC_URL}/images/LizzieGraphics.png`} alt="Enter"/>
             </Link>
+            </Fade>
+            <br />
             <br />
             <br />
             <br /> 
             <br />
             <br />
             <br />
+            <br />
+            <br />
+            <Fade bottom>
             <Link to='/claude9'>
                     <img className='graphic'src={`${process.env.PUBLIC_URL}/images/C9Graphics.png`} alt="Enter"/>
             </Link>
-    
-            
+            </Fade>
+            <br />
+            <br />
+            <br /> 
+            <br />
+            <br />
+            <br />
+            <Fade bottom>
             <Link to='/engayged'>
-                    <img className='engayed'src={`${process.env.PUBLIC_URL}/images/EngaygedGraphics.png`} alt="Enter"/>
+                    <img className='engayged'src={`${process.env.PUBLIC_URL}/images/EngaygedGraphics.png`} alt="Enter"/>
             </Link>
+            </Fade>
             <br />
             <br /> 
             <br />

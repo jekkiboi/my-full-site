@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
 
 /* Homepage Styling */
-.home-index{
+/* .home-index{
   min-height: 80vh;
   background-size: cover;
   background-position: bottom;
@@ -9,44 +9,47 @@
 .app-index{
   background-size: cover;
   min-height: 80em;
-}
+} */
 
 
 .inlineLinks{
   display: inline-flex;
   /* align-items: right; */
   /* align-content: right; */
-
   margin-right: 15%;
-
   margin-left: 5%;
 }
 .graphic{
-  min-height: 80vh;
-  min-width: 80vh;
+  display: flex;
+  margin: 0 auto;
+  min-height: 40vh;
+  min-width: 50vh;
 }
-
+/* @media only screen and (max-width: 600px) {
+  .graphic {
+    margin: 0 auto;
+  }
+} */
+.engayged{
+  display: flex;
+  margin: 0 auto;
+  min-height: 40vh;
+  min-width: 50vh;
+}
 .jack{
-display: flex;
-margin: 0 auto;
-margin-top: 5%;
-margin-left: 5%;
+/* display: flex; */
+/* margin: 0 auto; */
+margin-left: .2em;
 font-family: 'Megrim';
-font-size: 10em;
+font-size: 7rem;
 color:rgba(104, 76, 76, 0.914)
 }
-
 .tagline{
   font-family: 'Megrim';
-  font-size: 3em;
+  font-size: 2.5em;
   margin-top: -1%;
 margin-left: 6%;
 }
-
-.engayged{
-  margin-left: 5%
-}
-
 .thumb{
   height: 4.4em;
   width: 9em;
@@ -80,23 +83,25 @@ margin-left: 6%;
   -ms-transform: scale(1.2);
   transform: scale(1.2);
 }
-.r-backgroundColor-14sbq61{
 
-}
 
 /* Header Syling */
-.public-header{
-  color: rgb(49, 85, 28);
-  text-decoration:none;
-  font-weight:400;
-}
 .inlineheader{
   display: flex;
   float: right;
-  margin-right: 10%;
-  justify-content:space-between;
+  margin-right: 1em;
+}
+.navbar-toggler{
+  width: 4em;
+  height: 4em;
+}
+.navbar-toggler-icon{
+  width: 3em;
+  height: 3em;
 }
 .header {
+  margin-top: 1em;
+
   position:fixed;
   font-family: 'Megrim';
   width: 100%;
@@ -105,11 +110,7 @@ margin-left: 6%;
    padding: 5px;
    background: #f7f9f7aa;
  }
-.headerlinks{
-  margin-right: 0%;
-  display: flex;
-  justify-items: space-between;
-}
+
 
 /* Header  button */
 .button{
@@ -134,7 +135,6 @@ margin-left: 6%;
 	background-color: rgb(255, 251, 251);
 	color: rgb(157, 155, 155);
   width: 100%;
-
 }
 .button span:after{
 	display: block;
@@ -149,7 +149,6 @@ margin-left: 6%;
 	color: black;
   width: 100%;
 }
-
 .button:hover span{
 	transform:translate3d(0px,0px,-30px) rotateX(90deg);
 }
@@ -196,12 +195,12 @@ a{
     bottom:0;
   }
   .copyright{
-    font-family: 'Megrim';
+  font-family: 'Megrim';
   display: flex;
   justify-content: center;
   align-items: center;
   bottom:0;
-  margin-top: -1vh;
+  margin-top: -5vh;
   }
 
 
@@ -348,6 +347,6 @@ a.link{
 }
 .lizziephone{
   width: 30em;
-  height:25em;
+  height:20em;
 }
 
