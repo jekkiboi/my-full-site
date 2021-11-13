@@ -17,10 +17,12 @@ function Home() {
         <Fade>
         <div className='home-index' style={{ }}>
             <Fade left>
-            <span className='inlineText'>
-                <h1 className='jack'>Jack Mayer</h1>
-            </span>
+            <div className='inline-text'>
+                <h1 className='jack'>Jackie Mayer</h1>
+                <Fade left>
             <h4 className="tagline">Designer/Frontend Engineer</h4>
+            </Fade>
+            </div>
             </Fade>
             <br />
             <br /> 

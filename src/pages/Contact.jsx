@@ -31,11 +31,11 @@ function Contact(){
                     
                     &nbsp; &nbsp; 
                         <a href="https://github.com/jekkiboi" target='_blank'> 
-                        <img className='thumbnail'src={`${process.env.PUBLIC_URL}/images/github.png`}/>
+                        <img className='circle'src={`${process.env.PUBLIC_URL}/images/github.png`}/>
                         </a>
                         &nbsp; &nbsp; 
                         <a href="https://www.linkedin.com/in/jack-mayer-se/" target='_blank'> 
-                            <img className='thumbnail'src={`${process.env.PUBLIC_URL}/images/linkedin.png`}/>
+                            <img className='circle'src={`${process.env.PUBLIC_URL}/images/linkedin.png`}/>
                         </a>
                         &nbsp; &nbsp; 
                     </Fade>
