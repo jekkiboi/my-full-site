@@ -13,11 +13,9 @@ function About(){
             <br />
             <br />
             <h1 className='abouttitle'>About</h1>
-                 
                 <header className='inlinewayfarer'>
-               
                     <Fade left>
-                    <img className='headshot' src={process.env.PUBLIC_URL + '/images/me.JPG'} alt=""/>
+                        <img className='headshot' src={process.env.PUBLIC_URL + '/images/me.JPG'} alt=""/>
                     </Fade>
                     <div className="about">
                         <Fade right>
@@ -31,7 +29,7 @@ function About(){
                         <br />
                         <div >
                             <Link to='/Contact'>
-                            <h3 className='yar'>Contact</h3>
+                                <h3 className='yar'>Contact</h3>
                             </Link>
                             &nbsp; &nbsp; 
                         </div>

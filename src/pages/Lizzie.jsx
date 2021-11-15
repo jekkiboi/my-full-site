@@ -21,6 +21,8 @@ function Lizzie(){
                     <br />
                     <div class='links'>
                         &nbsp; 
+                        <a class="link" target="_blank" href="https://lizzieclient.herokuapp.com/">View live</a>
+                        <span>  / </span>
                         <a class="link" target="_blank" href="https://github.com/jekkiboi/LizzieClient">View Code</a>
                     </div>
                     </Fade>
