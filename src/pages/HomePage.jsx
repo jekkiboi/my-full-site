@@ -1,11 +1,8 @@
-import { Alert, Linking } from 'react-native';
 import { Link } from 'react-router-dom'
 import {Fade} from 'react-reveal'
-import Header from '../components/Header';
+import CityCarousel from '../partials/CityCarousel'
 
 function Home() {
-
-
     return (
         <div>
             <br />
@@ -23,47 +20,11 @@ function Home() {
             <h4 className="tagline">Designer/Frontend Engineer</h4>
             </Fade>
             </div>
-            </Fade>
+        </Fade>
+        <CityCarousel />
             <br />
             <br /> 
-            <br />
-            <br />
-            <Fade bottom>
-            <Link to='/lizzie'>
-                    <img className='graphic'src={`${process.env.PUBLIC_URL}/images/LizzieGraphics.png`} alt="Enter"/>
-            </Link>
-            </Fade>
-            <br />
-            <br />
-            <br />
-            <br /> 
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <Fade bottom>
-            <Link to='/claude9'>
-                    <img className='graphic'src={`${process.env.PUBLIC_URL}/images/C9Graphics.png`} alt="Enter"/>
-            </Link>
-            </Fade>
-            <br />
-            <br />
-            <br /> 
-            <br />
-            <br />
-            <br />
-            <Fade bottom>
-            <Link to='/engayged'>
-                    <img className='engayged'src={`${process.env.PUBLIC_URL}/images/EngaygedGraphics.png`} alt="Enter"/>
-            </Link>
-            </Fade>
-            <br />
-            <br /> 
-            <br />
-            <br />
-            <br />
-            <br /> 
+
         
         </div>
         </Fade>

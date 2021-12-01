@@ -90,6 +90,10 @@ color:rgba(104, 76, 76, 0.914)
   transform: scale(1.2);
 }
 
+/* Carousel */
+.caption3{
+  margin-top: 2em;
+}
 
 /* Header Syling */
 .inlineheader{
@@ -264,25 +268,21 @@ line-height: 1.2;
 .projectPage{
   padding:2vw;
 }
-
 a.link{
   color:rgb(109, 108, 108);
   font-style: italic;
 }
-
 .tools{
   font-size: 1.5em;
   color:rgb(109, 108, 108);
   font-style: italic;
 }
 
-
 /* claude 9 page  */
 .lank{
   width: 3em;
   height: 3em;
 }
-
 .claude9orange{
   margin-top: 2vh;
   width: 25em;
