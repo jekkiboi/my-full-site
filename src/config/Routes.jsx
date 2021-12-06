@@ -4,11 +4,9 @@ import { Switch, Route } from 'react-router-dom';
 import About from '../pages/About';
 
 import Work from '../pages/Work';
-import Wayfarer from '../pages/Wayfarer';
-import Claude from '../pages/Claude';
+import Hscredit from '../pages/Hscredit';
 import Lizzie from '../pages/Lizzie';
-import OfTheEarth from '../pages/OfTheEarth';
-import EnGayged from '../pages/EnGayged';
+import Tamagotchi from '../pages/Tamagotchi';
 import Contact from '../pages/Contact';
 
 function Routes(props){
@@ -19,11 +17,9 @@ function Routes(props){
         <Route exact path='/about' component={About} />
         <Route exact path='/contact' component={Contact} />
         <Route exact path='/work' component={Work} />
-        <Route exact path='/wayfarer' component={Wayfarer} />
-        <Route exact path='/claude9' component={Claude} />
+        <Route exact path='/hscredit' component={Hscredit} />
         <Route exact path='/lizzie' component={Lizzie} />
-        <Route exact path='/oftheearth' component={OfTheEarth} />
-        <Route exact path='/engayged' component={EnGayged} />
+        <Route exact path='/tamagotchi' component={Tamagotchi} />
       </Switch>
         
     )

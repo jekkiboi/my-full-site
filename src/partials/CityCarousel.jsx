@@ -1,7 +1,6 @@
 
 import Carousel from 'react-bootstrap/Carousel'
 import { Link } from 'react-router-dom'
-// import { Switch, Route } from 'react-router-dom'
 
 function CityCarousel() {
   return (
@@ -11,7 +10,7 @@ function CityCarousel() {
           <Link to='/lizzie'>
             <img
               className="graphic"
-              src={process.env.PUBLIC_URL + '/images/LizzieGraphics.png'}
+              src={process.env.PUBLIC_URL + '/images/lizzie.png'}
               alt="First slide"
             />
           </Link>
@@ -19,7 +18,6 @@ function CityCarousel() {
         <Carousel.Caption className='caption'>
           <div className='caption'>
             <Link to='/lizzie'>
-              Lizzie Social Media App
             </Link>
           </div>
 
@@ -27,18 +25,18 @@ function CityCarousel() {
       </Carousel.Item>
       <Carousel.Item>
         <div className='item'>
-          <Link to='/claude9'>
+          <Link to='/hscredit'>
             <img
               className="graphic"
-              src={process.env.PUBLIC_URL + '/images/C9Graphics.png'}
+              src={process.env.PUBLIC_URL + '/images/hscreditipad.png'}
               alt="Second slide"
             />
           </Link>
         </div>
         <Carousel.Caption>
           <div className='caption'>
-            <Link to='/claude9'>
-              Claude 9 Salon
+            <Link to='/hscredit'>
+
             </Link>
           </div>
         </Carousel.Caption>
@@ -46,11 +44,11 @@ function CityCarousel() {
 
       <Carousel.Item >
         <div className='item'>
-          <Link to='/engayged'>
+          <Link to='/tamagotchi'>
             <img
               className="engayged"
-              src={process.env.PUBLIC_URL + '/images/EngaygedGraphics.png'}
-              alt="EnGayged Wedding Planner"
+              src={process.env.PUBLIC_URL + '/images/tamagotchi.png'}
+              alt="Tamagotchi app"
             />
           </Link>
         </div>
@@ -58,8 +56,7 @@ function CityCarousel() {
           <br/>
           <br/>
           <div className='caption3'>
-            <Link to='/engayged'>
-              EnGayged Wedding Planner
+            <Link to='/tamagotchi'>
             </Link>
           </div>
         </Carousel.Caption>

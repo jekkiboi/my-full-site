@@ -17,7 +17,7 @@ function Home() {
             <div className='inline-text'>
                 <h1 className='jack'>Jackie Mayer</h1>
                 <Fade left>
-            <h4 className="tagline">Designer/Frontend Engineer</h4>
+            <h4 className="tagline">Software Engineer/Frontend Developer</h4>
             </Fade>
             </div>
         </Fade>

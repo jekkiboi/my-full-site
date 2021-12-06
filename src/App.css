@@ -37,14 +37,15 @@
 text-align:center;
 }
 .jack{
-font-family: 'Megrim';
+font-family: 'Helvetica';
 font-size: 7rem;
-color:rgba(104, 76, 76, 0.914)
+color:rgba(84, 61, 61, 0.914)
 }
 .tagline{
-  font-family: 'Megrim';
-  font-size: 2.5em;
-  margin-top: -1%;
+  font-family: 'Helvetica';
+  color:rgba(104, 76, 76, 0.914);
+  font-size: 2.3em;
+  /* margin-top: -1%; */
 }
 .thumb{
   height: 4.4em;
@@ -93,6 +94,17 @@ color:rgba(104, 76, 76, 0.914)
 /* Carousel */
 .caption3{
   margin-top: 2em;
+}
+.carousel-control-next{
+  color: black;
+  font-size: 2.5em;
+}
+.carousel-control-prev{
+  color: black;
+  font-size: 2.5em;
+}
+.sr-only{
+  color: black;
 }
 
 /* Header Syling */
@@ -278,17 +290,21 @@ a.link{
   font-style: italic;
 }
 
-/* claude 9 page  */
+/* HS-Credit page  */
 .lank{
   width: 3em;
   height: 3em;
 }
-.claude9orange{
-  margin-top: 2vh;
-  width: 25em;
-  height:25em;
+.hscreditlayout{
+  display: flex;
+  margin:0 auto;
+  height: 55vw;
 }
-
+.hscreditlayout1{
+  display: flex;
+  margin:0 auto;
+  height: 70vw;
+}
 /* lizzie */
 .lizzielaptop{
     display: flex;

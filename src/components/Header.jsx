@@ -17,7 +17,7 @@ function Header() {
                 <Navbar.Collapse id="basic-navbar-nav">
                   <Nav className="me-auto">
                  
-              <Link to="/my-full-site" className='public-header'>Work</Link>
+              <Link to="/my-full-site" className='public-header'>Home</Link>
                 &nbsp;&nbsp;
                 <Link to="/about" className='public-header'>About</Link>
                 &nbsp;&nbsp;
