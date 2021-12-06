@@ -9,7 +9,7 @@ function CityCarousel() {
         <div className='item'>
           <Link to='/lizzie'>
             <img
-              className="graphic"
+              className="carousel"
               src={process.env.PUBLIC_URL + '/images/lizzie.png'}
               alt="First slide"
             />
@@ -27,7 +27,7 @@ function CityCarousel() {
         <div className='item'>
           <Link to='/hscredit'>
             <img
-              className="graphic"
+              className="carousel"
               src={process.env.PUBLIC_URL + '/images/hscreditipad.png'}
               alt="Second slide"
             />
@@ -46,7 +46,7 @@ function CityCarousel() {
         <div className='item'>
           <Link to='/tamagotchi'>
             <img
-              className="engayged"
+              className="carousel"
               src={process.env.PUBLIC_URL + '/images/tamagotchi.png'}
               alt="Tamagotchi app"
             />

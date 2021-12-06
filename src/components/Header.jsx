@@ -1,10 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
-
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import NavDropdown from "react-bootstrap/NavDropdown";
-
 
 function Header() {
     return (
@@ -23,7 +20,6 @@ function Header() {
                 &nbsp;&nbsp;
                 <Link to="/contact" className='public-header'>Contact</Link>
                 </Nav>
-                
                 </Navbar.Collapse>
               </Navbar>
             </span>
@@ -33,6 +29,3 @@ function Header() {
     )
   }
   export default Header
-  
-  
-  

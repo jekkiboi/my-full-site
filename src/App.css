@@ -1,17 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
 
-/* Homepage Styling */
-/* .home-index{
-  min-height: 80vh;
-  background-size: cover;
-  background-position: bottom;
-}
-.app-index{
-  background-size: cover;
-  min-height: 80em;
-} */
-
-
 .inlineLinks{
   display: inline-flex;
   /* align-items: right; */
@@ -19,20 +7,13 @@
   margin-right: 15%;
   margin-left: 5%;
 }
-.graphic{
+.carousel{
   display: flex;
   margin: 0 auto;
-  min-height: 40vh;
-  min-width: 50vh;
+  height: 55vh;
+  min-height: 30vh;
+  min-width: 45vh;
 }
-
-.engayged{
-  display: flex;
-  margin: 0 auto;
-  min-height: 40vh;
-  min-width: 50vh;
-}
-
 .inline-text{
 text-align:center;
 }
@@ -123,9 +104,8 @@ color:rgba(84, 61, 61, 0.914)
 }
 .header {
   margin-top: 1em;
-
   position:fixed;
-  font-family: 'Megrim';
+  font-family: 'Helvetica';
   width: 100%;
    font-size: 2rem;
    color: white;
@@ -136,7 +116,7 @@ color:rgba(84, 61, 61, 0.914)
 
 /* Header  button */
 .button{
-  font-family: "Megrim";
+  font-family: "Helvetica";
 	display: inline-block;
 	position: absolute;
 	overflow: hidden;
@@ -178,7 +158,6 @@ color:rgba(84, 61, 61, 0.914)
   position: absolute;
   left: 10px;
   bottom: 10px;
-  /* font-face: sans-serif;*/
   font-size: 0.5em;
   color:rgb(255, 254, 254);
 }
@@ -189,7 +168,7 @@ a{
 
 /* footer  */
 .footer{
-   font-family: 'Megrim';
+   font-family: 'Helvetica';
    font-weight: 800;
    font-size: 1.5em;
     color: rgb(201, 134, 134);
@@ -205,7 +184,7 @@ a{
     justify-content: space-between;
   }
   .footerlinks{
-    font-family: 'Megrim';
+    font-family: 'Helvetica';
     margin-top: 1vh;
     margin-bottom: 1vh;
     bottom:0;
@@ -217,7 +196,7 @@ a{
     bottom:0;
   }
   .copyright{
-  font-family: 'Megrim';
+  font-family: 'Helvetica';
   display: flex;
   justify-content: center;
   align-items: center;

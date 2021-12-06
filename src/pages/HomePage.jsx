@@ -10,6 +10,8 @@ function Home() {
             <br />
             <br /> 
             <br />
+            <br /> 
+            <br />
             <br />
         <Fade>
         <div className='home-index' style={{ }}>
