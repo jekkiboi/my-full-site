@@ -1,5 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
 
+
+.lizziehome{
+  display: flex;
+  margin: 0 auto;
+  height: 65vh;
+  min-height: 30vh;
+  min-width: 45vh;
+}
+.lizziehome1{
+  display: flex;
+  margin: 0 auto;
+  height: 90vh;
+  min-height: 30vh;
+  min-width: 45vh;
+}
 .inlineLinks{
   display: inline-flex;
   /* align-items: right; */
@@ -298,13 +313,20 @@ a.link{
 /* about */
 .about{
   padding: 5vw;
+  margin-top: -5vw;
 }
 .abouttitle{
-  font-size: 6rem;
-  padding-left: 10px;
-  line-height: 1.2;
+  font-family: 'Helvetica';
+  font-size: 7rem;
+  text-align: center;
+  color:rgba(84, 61, 61, 0.914)
   }
-
+  .inlineabout{
+    display:flex;
+    justify-content: space-between;
+    padding: 10vw;
+    margin-top: -5vw;
+  }
 /* contact  */
 .email{
 }

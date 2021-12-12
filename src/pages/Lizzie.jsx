@@ -16,7 +16,7 @@ function Lizzie(){
                     <h1 className='wayfarertitle'>Lizzie</h1>
                    
                     <p className='wayfarerbody'>
-                        For my final project I decided to create a social media app for reptile lovers (don't ask me why I have no idea). In the app I utilize third party authentication, React Hooks, Social Media components and an image uploader. Loosely based off of reddit's chatroom format, user data is stored in a simple profile and focuses on the sharing of information in a cascading list. Lizzie is on track to be mobile friendly. This is by far my most exciting project and I cannot wait to deploy it.
+                        For my final project I decided to create a social media app for reptile lovers. In the app I utilize third party authentication, React Hooks, Social Media components and an image uploader. Loosely based off of reddit's chatroom format, user data is stored in a simple profile and focuses on the sharing of information in a cascading list. Lizzie is on track to be mobile friendly. This is by far my most exciting project and I cannot wait to deploy it.
                     </p>
                     <br />
                     <div class='links'>

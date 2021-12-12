@@ -1,6 +1,7 @@
-import { Link } from 'react-router-dom'
 import {Fade} from 'react-reveal'
 import CityCarousel from '../partials/CityCarousel'
+import { Link } from 'react-router-dom'
+import About from './About'
 
 function Home() {
     return (
@@ -23,11 +24,53 @@ function Home() {
             </Fade>
             </div>
         </Fade>
-        <CityCarousel />
+
+        <br />
+        <br />
+        <br />
+          <Fade left>        
+          <Link to='/hscredit'>
+            <img
+              className="lizziehome1"
+              src={process.env.PUBLIC_URL + '/images/hscreditipad.png'}
+              alt="Second slide"
+            />
+          </Link>
+        </Fade>
+
+
+        <br />
+        <br />
+        <br />
+        <Fade right>
+        <Link to='/lizzie'>
+            <img
+              className="lizziehome"
+              src={process.env.PUBLIC_URL + '/images/lizzie.png'}
+              alt="First slide"
+            />
+          </Link>
+          </Fade>
+
+          <br />
+        <br />
+        <br />
+          <Link to='/tamagotchi'>
+            <img
+              className="lizziehome"
+              src={process.env.PUBLIC_URL + '/images/tamagotchi.png'}
+              alt="Tamagotchi app"
+            />
+          </Link>
+
+        {/* <CityCarousel /> */}
             <br />
             <br /> 
-
+            <br />
+            <br />
+            <br />
         
+        <About />
         </div>
         </Fade>
     </div>

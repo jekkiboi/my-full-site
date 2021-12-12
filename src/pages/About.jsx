@@ -13,7 +13,7 @@ function About(){
             <br />
             <br />
             <h1 className='abouttitle'>About</h1>
-                <header className='inlinewayfarer'>
+                <header className='inlineabout'>
                     <Fade left>
                         <img className='headshot' src={process.env.PUBLIC_URL + '/images/me.JPG'} alt=""/>
                     </Fade>
