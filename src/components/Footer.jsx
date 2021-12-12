@@ -10,8 +10,6 @@ function Footer(){
                 &nbsp;&nbsp;&nbsp;&nbsp;
                 <Link to="/my-full-site" className='public-footer'>Home</Link>
                       &nbsp;&nbsp;
-                      <Link to="/work" className='public-footer'>work</Link>
-                      &nbsp;&nbsp;
                       <Link to="/about" className='public-footer'>About</Link>
                       &nbsp;&nbsp;
                       <Link to="/contact" className='public-footer'>Contact</Link>
