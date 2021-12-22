@@ -14,11 +14,11 @@ function Header() {
                 <Navbar.Collapse id="basic-navbar-nav">
                   <Nav className="me-auto">
                  
-              <Link to="/my-full-site" className='public-header'>Home</Link>
+              <Link to="/my-full-site" className='public-header'> <img className='thumbnail'src={`${process.env.PUBLIC_URL}/images/home.png`} alt="Home"/></Link>
                 &nbsp;&nbsp;
-                <Link to="/about" className='public-header'>About</Link>
+                <Link to="/about" className='public-header'><img className='thumbnail'src={`${process.env.PUBLIC_URL}/images/link.png`} alt="Home"/></Link>
                 &nbsp;&nbsp;
-                <Link to="/contact" className='public-header'>Contact</Link>
+                <Link to="/contact" className='public-header'></Link>
                 </Nav>
                 </Navbar.Collapse>
               </Navbar>

@@ -24,7 +24,7 @@ function Footer(){
             &nbsp; &nbsp; 
                 </span>
             </span>
-            <div className='copyright'> © 2021 JACK MAYER </div>
+
             <br />
         </div>
     )

@@ -1,5 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
-
+.skills{
+  display: flex;
+  margin: 0 auto;
+  height: 17vh;
+  min-height: 17vh;
+  min-width: 20vh;
+}
+.skillssection{
+  margin-top: -15vh;
+}
+.skillstools{
+  font-family: 'Helvetica';
+  font-size: 6rem;
+  text-align: center;
+  color:rgba(84, 61, 61, 0.914);
+  margin-left: .8em;
+}
 
 .lizziehome{
   display: flex;
@@ -17,8 +33,6 @@
 }
 .inlineLinks{
   display: inline-flex;
-  /* align-items: right; */
-  /* align-content: right; */
   margin-right: 15%;
   margin-left: 5%;
 }
@@ -327,7 +341,50 @@ a.link{
     padding: 10vw;
     margin-top: -5vw;
   }
-/* contact  */
+/* contact/code  */
+.coder{
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  font-weight: 300;
+  color: #2C2C2C;
+  text-align: center;
+}
+.codertitle{
+  font-size: 5rem;
+padding: 10px 0 30px;
+line-height: 1.2;
+text-align: center;
+}
+.codelinks1{
+height: 18em;
+}
+.codelinks1:hover{
+  height: 19em;
+  transition: 1s;
+  }
+.codelinks2{
+  height: 18em;
+  }
+.codelinks2:hover{
+  height: 19em;
+  transition: 1s;
+  }
+.codelinks3{
+  height: 18em;
+  }
+.codelinks3:hover{
+  height: 19em;
+  transition: 1s;
+  }
+.codelinks4{
+  height: 18em;
+  }
+.codelinks4:hover{
+  height: 19em;
+  transition: 1s;
+  }
+
 .email{
 }
 .css-text-901oao{
@@ -349,6 +406,7 @@ a.link{
 }
 .inlinecontact{
   display:flex;
+  justify-content: center;
 }
 
 

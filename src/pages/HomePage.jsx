@@ -14,6 +14,7 @@ function Home() {
             <br /> 
             <br />
             <br />
+  
         <Fade>
         <div className='home-index' style={{ }}>
             <Fade left>
@@ -63,7 +64,7 @@ function Home() {
             />
           </Link>
 
-        {/* <CityCarousel /> */}
+       
             <br />
             <br /> 
             <br />
@@ -73,6 +74,18 @@ function Home() {
         <About />
         </div>
         </Fade>
+        <Fade up>
+          <div className="skillssection">
+        <h2 className="skillstools">My Top Skills </h2>
+        <br />
+        <img
+              className="skills"
+              src={process.env.PUBLIC_URL + '/images/skillslogossmall.png'}
+              alt="skills logos"
+            />
+            </div>
+        </Fade>
+        
     </div>
     )
 }

@@ -12,7 +12,7 @@ function About(){
             <br />
             <br />
             <br />
-            <h1 className='abouttitle'>About</h1>
+            <h1 className='abouttitle'>Lets Link Up</h1>
                 <header className='inlineabout'>
                     <Fade left>
                         <img className='headshot' src={process.env.PUBLIC_URL + '/images/me.JPG'} alt=""/>
@@ -22,14 +22,17 @@ function About(){
                         <h2 className="tools">UX Engineer / UX Unicorn / Front End Developer </h2>
                         <br />
                         <p className='wayfarerbody'>
-                            I am a recent bootcamp graduate delving into the field of front end development. 
+                            I am a freelnce designer delving into the field of front end development. 
                             I have years of experience with designing for small businesses, and it is my hope 
-                            to find a role that allows me the mentorship to develop my coding abilities as well as design. 
+                            to find a role that allows me the mentorship to develop my coding abilities as well as design. Looking forward to connecting with you! 
+                            <br />
+                             <a className="yo" href="https://gmail.com" target='_blank'>Jackiemayer14@gmail.com</a>. 
+                             
                         </p>
                         <br />
                         <div >
-                            <Link to='/Contact'>
-                                <h3 className='yar'>Contact</h3>
+                            <Link to='/code'>
+                                <h3 className='yar'>My Code Challenges Practice</h3>
                             </Link>
                             &nbsp; &nbsp; 
                         </div>
