@@ -33,7 +33,7 @@ function Home() {
           <Link to='/hscredit'>
             <img
               className="lizziehome1"
-              src={process.env.PUBLIC_URL + '/images/hscreditipad.png'}
+              src={process.env.PUBLIC_URL + '/images/hscredit.png'}
               alt="Second slide"
             />
           </Link>
@@ -76,6 +76,9 @@ function Home() {
         </Fade>
         <Fade up>
           <div className="skillssection">
+          <br />
+        <br />
+        <br />
         <h2 className="skillstools">My Top Skills </h2>
         <br />
         <img
@@ -85,7 +88,18 @@ function Home() {
             />
             </div>
         </Fade>
-        
+        <br />
+        <br />
+        <br /> 
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br /> 
+        <br />
+
     </div>
     )
 }
