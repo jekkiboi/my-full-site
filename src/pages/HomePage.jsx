@@ -76,17 +76,59 @@ function Home() {
         </Fade>
         <Fade up>
           <div className="skillssection">
-          <br />
+        <br />
         <br />
         <br />
         <h2 className="skillstools">My Top Skills </h2>
         <br />
-        <img
-              className="skills"
-              src={process.env.PUBLIC_URL + '/images/skillslogossmall.png'}
-              alt="skills logos"
-            />
-            </div>
+        <div>
+            <img
+                  className="skills"
+                  src={process.env.PUBLIC_URL + '/images/skillslogossmall.png'}
+                  alt="skills logos"
+              />
+            <img
+                className="skills"
+                src={process.env.PUBLIC_URL + '/images/skillslogossmall.png'}
+                alt="skills logos"
+              />
+            <img
+                  className="skills"
+                  src={process.env.PUBLIC_URL + '/images/skillslogossmall.png'}
+                  alt="skills logos"
+              />
+            <img
+                className="skills"
+                src={process.env.PUBLIC_URL + '/images/skillslogossmall.png'}
+                alt="skills logos"
+              />
+            <img
+                  className="skills"
+                  src={process.env.PUBLIC_URL + '/images/skillslogossmall.png'}
+                  alt="skills logos"
+              />
+            <img
+                className="skills"
+                src={process.env.PUBLIC_URL + '/images/skillslogossmall.png'}
+                alt="skills logos"
+              />
+             <img
+                  className="skills"
+                  src={process.env.PUBLIC_URL + '/images/skillslogossmall.png'}
+                  alt="skills logos"
+              />
+            <img
+                className="skills"
+                src={process.env.PUBLIC_URL + '/images/skillslogossmall.png'}
+                alt="skills logos"
+              />
+            <img
+                className="skills"
+                src={process.env.PUBLIC_URL + '/images/skillslogossmall.png'}
+                alt="skills logos"
+              />
+          </div>
+          </div>
         </Fade>
         <br />
         <br />

@@ -28,7 +28,7 @@ function Tamagotchi(){
                     </Fade>
                 </div>
                 <Fade right>
-                <img className='wayfarerlaptop' src={process.env.PUBLIC_URL + '/images/laptopengayged.png'} alt=""/>
+                {/* <img className='wayfarerlaptop' src={process.env.PUBLIC_URL + '/images/laptopengayged.png'} alt=""/> */}
                 </Fade>
             </header>
 
