@@ -44,7 +44,8 @@ function Contact(){
                     </Fade>
                 </header>
                 <header className='inlinecontact'>
-                <a href="https://www.codewars.com/users/jekkiboi" target='codewars'> 
+                &nbsp; &nbsp;
+                        <a href="https://www.codewars.com/users/jekkiboi" target='codewars'> 
                             <img className='codelinks3'src={`${process.env.PUBLIC_URL}/images/codewars.png`}/>
                         </a>
                         &nbsp; &nbsp; 

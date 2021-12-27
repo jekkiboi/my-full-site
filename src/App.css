@@ -405,28 +405,28 @@ text-align: center;
 height: 18em;
 }
 .codelinks1:hover{
-  height: 19em;
+  opacity: 80%;
   transition: 1s;
   }
 .codelinks2{
   height: 18em;
   }
 .codelinks2:hover{
-  height: 19em;
+  opacity: 80%;
   transition: 1s;
   }
 .codelinks3{
   height: 18em;
   }
 .codelinks3:hover{
-  height: 19em;
+  opacity: 80%;
   transition: 1s;
   }
 .codelinks4{
   height: 18em;
   }
 .codelinks4:hover{
-  height: 19em;
+  opacity: 80%;
   transition: 1s;
   }
 
