@@ -35,7 +35,7 @@ function Contact(){
                         <a href="https://github.com/jekkiboi" target='github'> 
                         <img className='codelinks1'src={`${process.env.PUBLIC_URL}/images/githubmore.png`}/>
                         </a>
-                        &nbsp; &nbsp; 
+                      
                         <a href="https://github.com/jekkiboi" target='hackerrank'> 
                         <img className='codelinks2'src={`${process.env.PUBLIC_URL}/images/hackerrank.png`}/>
                         </a>
@@ -43,12 +43,15 @@ function Contact(){
                    
                     </Fade>
                 </header>
+                <br />
+                <br />
+                <br />
                 <header className='inlinecontact'>
                 &nbsp; &nbsp;
                         <a href="https://www.codewars.com/users/jekkiboi" target='codewars'> 
                             <img className='codelinks3'src={`${process.env.PUBLIC_URL}/images/codewars.png`}/>
                         </a>
-                        &nbsp; &nbsp; 
+                       
                         <a href="https://leetcode.com/Jekkiboi/" target='leetcode'> 
                             <img className='codelinks4'src={`${process.env.PUBLIC_URL}/images/leetcode.png`}/>
                         </a>

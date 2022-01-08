@@ -87,7 +87,7 @@ function Home() {
                   src={process.env.PUBLIC_URL + '/images/skillslogossmall.png'}
                   alt="skills logos"
               />
-            <img
+            {/* <img
                 className="skills"
                 src={process.env.PUBLIC_URL + '/images/skillslogossmall.png'}
                 alt="skills logos"
@@ -126,7 +126,7 @@ function Home() {
                 className="skills"
                 src={process.env.PUBLIC_URL + '/images/skillslogossmall.png'}
                 alt="skills logos"
-              />
+              /> */}
           </div>
           </div>
         </Fade>
