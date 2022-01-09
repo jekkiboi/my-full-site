@@ -43,7 +43,7 @@ function Contact(){
                         <img className='codelinks1'src={`${process.env.PUBLIC_URL}/images/githubmore.png`}/>
                         </a>
                       
-                        <a href="https://github.com/jekkiboi" target='hackerrank'> 
+                        <a href="https://www.hackerrank.com/jackiemayer14" target='hackerrank'> 
                         <img className='codelinks2'src={`${process.env.PUBLIC_URL}/images/hackerrank.png`}/>
                         </a>
                         &nbsp; &nbsp; 
