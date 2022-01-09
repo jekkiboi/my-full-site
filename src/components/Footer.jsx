@@ -12,7 +12,7 @@ function Footer(){
                       &nbsp;&nbsp;
                       <Link to="/about" className='public-footer'>About</Link>
                       &nbsp;&nbsp;
-                      <Link to="/contact" className='public-footer'>Contact</Link>
+                      <Link to="/code" className='public-footer'>Contact</Link>
                       &nbsp; &nbsp;
                     <a href="https://github.com/jekkiboi" target='_blank'> 
                     <img className='thumbnail'src={`${process.env.PUBLIC_URL}/images/github.png`} alt="Github"/>

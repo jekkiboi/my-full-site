@@ -30,6 +30,10 @@ function About(){
                             I have years of experience with designing for small businesses, and it is my hope 
                             to find a role that allows me the mentorship to develop my coding abilities as well as design. Looking forward to connecting with you! 
                             <br />
+                            <a href="https://docs.google.com/document/d/1jcVtLGAoKYS_nixHjHUVH1J1RaAJ152RCtAP1IUCNpQ/edit?usp=sharing" target='resume'> 
+                            View My Resume
+                            </a>
+                            <br />
                              <a className="yo" href="https://gmail.com" target='_blank'>Jackiemayer14@gmail.com</a>. 
                              
                         </p>
