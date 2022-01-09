@@ -1,6 +1,8 @@
 import React from "react";
 import {Fade} from 'react-reveal'
-import Hello from './Hello'
+// import Hello from './Hello'
+
+//https://docs.google.com/document/d/1jcVtLGAoKYS_nixHjHUVH1J1RaAJ152RCtAP1IUCNpQ/edit?usp=sharing
 
 
 function Contact(){
@@ -23,6 +25,11 @@ function Contact(){
                         hiring, or even just have questions about my projects. <br />
                          You can also reach me at <a className="yo" href="https://gmail.com" target='_blank'>Jackiemayer14@gmail.com</a>.<br />
                          <br />
+                         <a href="https://docs.google.com/document/d/1jcVtLGAoKYS_nixHjHUVH1J1RaAJ152RCtAP1IUCNpQ/edit?usp=sharing" target='resume'> 
+                            View My Resume
+                        </a>
+                        <br />
+                        <br />
                          Thanks for visiting!  
                     </p>
                     <br />
